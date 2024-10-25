@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BrickStoreBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2118e018e919a4a663738926fef1823436a130ec")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+81721479df47f70a9c2f39d6d17752ed1e41a913")]
 [assembly: System.Reflection.AssemblyProductAttribute("BrickStoreBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BrickStoreBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

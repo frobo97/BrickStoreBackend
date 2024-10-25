@@ -8,7 +8,8 @@ namespace BrickStoreBackend.Data
         public DbContextSqLite(DbContextOptions<DbContextSqLite> options) 
             : base(options) { }
 
-        public DbSet<BrickProduct> BrickProducts { get; set; }
+        public DbSet<BrickProduct?> BrickProducts { get; set; }
+        public DbSet<User?> Users { get; set; }
     }
 }
 

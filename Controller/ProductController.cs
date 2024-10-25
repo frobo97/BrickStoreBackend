@@ -1,6 +1,16 @@
-﻿namespace BrickStoreBackend.Controller;
+﻿using BrickStoreBackend.Service;
+using Microsoft.AspNetCore.Mvc;
 
-public class ProductController
+namespace BrickStoreBackend.Controller
 {
-    
+    [ApiController]
+    [Route("product/[controller]")]
+    public class ProductController : ControllerBase
+    {
+     private readonly IProductService _productService;
+        
+        
+    }
+
+
 }

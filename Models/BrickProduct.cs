@@ -7,16 +7,17 @@ public class BrickProduct
     public string Description { get; set; }
     public double Price { get; set; }
 
-    public byte[] Image { get; set; }
+    public byte[]? Image { get; set; }
 
     public BrickProduct()
     {
     }
 
-    public BrickProduct(string name, string description)
+    public BrickProduct(string name, string description, double price)
     {
         Name = name;
         Description = description;
+        Price = price;
     }
 
     public BrickProduct(string name, string description, double price, byte[] image)
