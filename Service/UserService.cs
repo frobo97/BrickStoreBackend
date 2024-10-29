@@ -1,4 +1,5 @@
 ﻿using BrickStoreBackend.Models;
+using BrickStoreBackend.Repository;
 
 namespace BrickStoreBackend.Service;
 
@@ -13,35 +14,41 @@ public interface IUserService
 }
 
 public class UserService : IUserService
-
 {
+    private readonly IUserRepository _userRepository;
+
+    public UserService(IUserRepository userRepository)
+    {
+        _userRepository = userRepository;
+    }
+
     public IEnumerable<User?> GetAll()
     {
-        throw new NotImplementedException();
+        return _userRepository.GetAll();
     }
 
     public User? GetUserById(int id)
     {
-        throw new NotImplementedException();
+        return _userRepository.GetById(id);
     }
 
     public User? GetUserByEmail(string email)
     {
-        throw new NotImplementedException();
+        return _userRepository.GetByEmail(email);
     }
 
     public bool CreateUser(User user)
     {
-        throw new NotImplementedException();
+        return _userRepository.Create(user);
     }
 
     public bool UpdateUser(User? user)
     {
-        throw new NotImplementedException();
+        return _userRepository.Update(user);
     }
 
     public void DeleteUser(int id)
     {
-        throw new NotImplementedException();
+        _userRepository.Delete(id);
     }
 }

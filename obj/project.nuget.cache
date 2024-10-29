@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+Uk/rQDrJuQ=",
+  "dgSpecHash": "Yh61pbonEHM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\97fro\\Documents\\uBit_code_test\\BrickStoreBackend\\BrickStoreBackend\\Src\\BrickStoreBackend.csproj",
+  "projectFilePath": "C:\\Users\\97fro\\Documents\\privata-.Net-project\\BrickStoreBackend\\BrickStoreBackend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\97fro\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\97fro\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

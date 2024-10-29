@@ -71,7 +71,8 @@ public class UserRepository : IUserRepository
         return false;
     }
 
-    public void Delete(int id)
+    // ToDo fix the delete to a bool....
+    public void Delete(int id) 
     {
         var user = _context.Users.Find(id);
         if (user == null) return;
